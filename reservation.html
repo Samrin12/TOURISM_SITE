@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Reservation Page</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/tour.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+  </head>
+
+<body>
+  <!-- Header section start -->
+  <section class="header">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-md px-0">
+                <a class="navbar-brand" href="#"><img src="images/logo1.png" class="img-fluid w-50 align-items-center"
+                        alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">about us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tour.html">tours</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Others
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="hotels.html">Hotels</a></li>
+                                <li><a class="dropdown-item" href="car.html">Cars</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">contact us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="signin.html">sign in</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="signup.html">sign up</a>
+                        </li>
+                        <li class="nav-item">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search"
+                                    aria-label="Search">
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</section>
+<!-- Header secion end -->
+  
+
+  <div class="second-page-heading">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>Book Prefered Deal Here</h4>
+          <h2>Make Your Reservation</h2>
+          <p>Tourism is travel for pleasure or business; also the theory and practice of touring, the business of attracting, accommodating, and entertaining tourists, and the business of operating tours.</p>
+          <div class="main-button"><a href="about.html">Discover More</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="more-info reservation-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-6">
+          <div class="info-item">
+            <i class="fa fa-phone"></i>
+            <h4>Make a Phone Call</h4>
+            <a href="#">+088-01715*200000</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="info-item">
+            <i class="fa fa-envelope"></i>
+            <h4>Contact Us via Email</h4>
+            <a href="#">tourbup@email.com</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="info-item">
+            <i class="fa fa-map-marker"></i>
+            <h4>Visit Our Office </h4>
+            <a href="#">Mirpur Dohs, Dhaka</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="reservation-form">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+    
+        </div>
+        <div class="col-lg-12">
+          <form id="reservation-form" name="gs" method="submit" role="search" action="#">
+            <div class="row">
+              <div class="col-lg-12">
+                <h4>Make Your <em>Reservation</em> Through This <em>Form</em></h4>
+              </div>
+              <div class="col-lg-6">
+                  <fieldset>
+                      <label for="Name" class="form-label">Your Name</label>
+                      <input type="text" name="Name" class="Name" placeholder="Ex. Neha Khan" autocomplete="on" required>
+                  </fieldset>
+              </div>
+              <div class="col-lg-6">
+                <fieldset>
+                    <label for="Number" class="form-label">Your Phone Number</label>
+                    <input type="text" name="Number" class="Number" placeholder="Ex. +xxx xxx xxx" autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-6">
+                  <fieldset>
+                      <label for="chooseGuests" class="form-label">Number Of Guests</label>
+                      <select name="Guests" class="form-select" aria-label="Default select example" id="chooseGuests" onChange="this.form.click()">
+                          <option selected>ex. 3 or 4 or 5</option>
+                          <option type="checkbox" name="option1" value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4+">4+</option>
+                      </select>
+                  </fieldset>
+              </div>
+              <div class="col-lg-6">
+                <fieldset>
+                    <label for="Number" class="form-label">Check In Date</label>
+                    <input type="date" name="date" class="date" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                  <fieldset>
+                      <label for="chooseDestination" class="form-label">Choose Your Destination</label>
+                      <select name="Destination" class="form-select" aria-label="Default select example" id="chooseCategory" onChange="this.form.click()">
+                          <option selected>Bandarban</option>
+                          <option value="Italy, Roma">Khagrachari</option>
+                          <option value="France, Paris">Bogura</option>
+                          <option value="Engaland, London">Chattogram</option>
+                          <option value="Switzerland, Lausanne">Cox's Bazar</option>
+                      </select>
+                  </fieldset>
+              </div>
+              <div class="col-lg-12">                        
+                  <fieldset>
+                      <button class="main-button">Make Your Reservation Now</button>
+                  </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer part start -->
+  <footer>
+    <div class="container">
+        <div class="row hg align-items-center justify-content-between">
+            <div class="col-md-4 title">
+                <h1>Our Team</h1>
+                <p>We are a collection of several skilled travel and sales professionals based in our agency that
+                    have
+                    been offering specialized services to groups, corporations, and individual clients from all over
+                    the world since 2020.</p>
+                <!-- <div class="icon">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                </div> -->
+            </div>
+            <div class="col-md-2 list">
+                <h6>about</h6>
+                <ul>
+                    <li>History</li>
+                    <li>Our Team </li>
+                    <li>Brand Guidelines</li>
+                    <li>Terms & Condition</li>
+                    <li>Privacy Policy</li>
+                </ul>
+
+            </div>
+            <div class="col-md-2 list">
+                <h6>services</h6>
+                <ul>
+                    <li>How to Order</li>
+                    <li> Our Product</li>
+                    <li> Order Status</li>
+                    <li>Promo</li>
+                    <li>Payment Method</li>
+                </ul>
+            </div>
+            <div class="col-md-2 list">
+                <h6>about</h6>
+                <ul>
+                    <li>+8801397253826</li>
+                    <li>www.summer@gmail.com</li>
+                    <li>Contact Us</li>
+                    <li>Help</li>
+                    <li>Privacy</li>
+                </ul>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+</footer>
+<!-- footer part end -->
+<!-- copyright part start -->
+<section class="copyright">
+    <p>copyright &copy; all right reserved by <span>SummerExploring.com</span></p>
+</section>
+<!-- copyright part end -->
+<script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script>
+    $(".option").click(function(){
+      $(".option").removeClass("active");
+      $(this).addClass("active"); 
+    });
+  </script>
+
+  </body>
+
+</html>
